@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: white;
+}
+body {
+  background-image: url(/img/background.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.logo img {
+  width: 80%;
+  filter: invert(100%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+.active {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-links li:hover {
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-bottom: 2px solid gray;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  padding: 1rem;
+
+  display: block;
+}
+
+.portfolio {
+  background-color: #080808;
+  width: 100%;
+  height: 300vh;
+}
+
+.item {
+  transition: 0.2s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  justify-content: space-evenly;
+}
+.item {
+  margin: 25px;
+  -webkit-box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.75);
+}
