@@ -161,6 +161,7 @@ body {
   .navbutton {
     display: flex;
     width: 12%;
+    z-index: 2;
   }
 
   .mobile-logo img {
