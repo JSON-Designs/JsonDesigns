@@ -27,7 +27,7 @@ function infoCodeDesign() {
 
 var btnContainer = document.getElementsByClassName("link");
 
-// Loop through the buttons and add the active class to the current/clicked button
+// Loop through the Li elements and add the active class to the current/clicked Li element
 for (var i = 0; i < btnContainer.length; i++) {
   btnContainer[i].addEventListener("click", function () {
     var current = document.getElementsByClassName("active");
