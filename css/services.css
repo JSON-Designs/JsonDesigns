@@ -71,6 +71,7 @@ body {
 
 .services {
   text-align: center;
+  position: relative;
 }
 
 .services img {
@@ -158,9 +159,40 @@ body {
     display: none;
   }
 
+  #servicetext1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  #servicetext2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  #servicetext3 {
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+
+  #servicetext4 {
+    font-weight: 300;
+    margin-top: 10px;
+
+    font-size: 1rem;
+  }
+
+  .services img {
+    width: 50%;
+  }
+
   .mobile-logo {
     position: relative;
     display: flex;
+  }
+
+  .services {
+    text-align: center;
+    margin-top: 50px;
   }
 
   .logocontainer {
