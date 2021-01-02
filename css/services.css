@@ -190,6 +190,47 @@ body {
     display: none;
   }
 
+  .box1,
+  .box2,
+  .box3 {
+    background-color: #050505;
+    z-index: 5;
+    width: 120px;
+    height: 322px;
+    text-align: center;
+    padding: 25px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .main-text {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .price {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .info {
+    font-size: 8.3pt;
+    margin-top: 10px;
+    font-weight: 300;
+    margin-bottom: -10px;
+  }
+
+  .box1 img {
+    width: 70%;
+  }
+
+  .box2 img {
+    width: 70%;
+  }
+
+  .box3 img {
+    width: 70%;
+  }
+
   #servicetext1 {
     font-weight: 600;
     font-size: 2rem;
