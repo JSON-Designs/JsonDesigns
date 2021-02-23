@@ -34,7 +34,7 @@ h1 {
 }
 
 .active {
-  font-size: 1.2rem;
+  transform: scale(1.2);
   font-weight: 800;
 }
 
@@ -63,7 +63,7 @@ h1 {
 }
 
 .navbar-links li:hover {
-  font-size: 1.2rem;
+  transform: scale(1.2);
   font-weight: 800;
   border-bottom: 2px solid gray;
 }

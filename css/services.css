@@ -20,6 +20,11 @@ body {
   filter: invert(100%);
 }
 
+.active {
+  transform: scale(1.2);
+  font-weight: 800;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -52,7 +57,7 @@ body {
 }
 
 .navbar-links li:hover {
-  font-size: 1.2rem;
+  transform: scale(1.2);
   font-weight: 800;
   border-bottom: 2px solid gray;
 }
